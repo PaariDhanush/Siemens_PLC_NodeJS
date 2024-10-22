@@ -7,12 +7,18 @@ Read siemens plc DB value and diaplay the value in Web browser
 
 2)Set Up Your Project(choose your path)
   2.1_Create a new directory for your project:
-    mkdir my-node-app
-    cd my-node-app
+    #open command promt
+    D:
+    D:\Nodejs
+    mkdir plctest
+    cd plctest
+    
   2.2_Initialize a new Node.js project(Run the cmd in the same path of the project)
     npm init -y
+    
   2.3_Install Required Libraries(Run the cmd in the same path of the project)
     npm install nodes7
+    
 3)Creat a JavaScript file with .js extension(create file in the same path of the project)
 
 4)Copy the code to the javascript file:
@@ -92,8 +98,7 @@ Read siemens plc DB value and diaplay the value in Web browser
   PLC Starting Address
 
 6)Run your code in cmd (go to the project path and run the cmd)
-  node filename.js 
-  example 
+  D:\Nodejs\plctest\
   node index.js
   
 7) view output in web browser
