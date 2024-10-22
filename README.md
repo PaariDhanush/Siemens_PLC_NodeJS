@@ -102,5 +102,5 @@ Read siemens plc DB value and diaplay the value in Web browser
   node index.js
   
 7) view output in web browser
-  http://localhost:300
+  http://localhost:3000
   
