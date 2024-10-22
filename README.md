@@ -1,5 +1,6 @@
 # Siemens_PLC_NodeJS
 Read siemens plc DB value and diaplay the value in Web browser
+
 1)First install Node Js application:
   https://nodejs.org/en/download/prebuilt-installer
   chosse the nodejs version between V14.0.0 to 16.0.0 , download and install.
@@ -15,7 +16,9 @@ Read siemens plc DB value and diaplay the value in Web browser
 3)Creat a JavaScript file with .js extension(create file in the same path of the project)
 
 4)Copy the code to the javascript file:
+
 ################################################
+
   const http = require('http');
   const nodes7 = require('nodes7');
   const conn = new nodes7();
@@ -80,15 +83,19 @@ Read siemens plc DB value and diaplay the value in Web browser
   server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}/`);
   });
+  
 ################################################
+
 5) now change the input of your plc
   PLC IP Address
   PLC DB No
   PLC Starting Address
+
 6)Run your code in cmd (go to the project path and run the cmd)
   node filename.js 
   example 
   node index.js
+  
 7) view output in web browser
   http://localhost:300
   
